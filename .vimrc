@@ -10,6 +10,9 @@ call vundle#begin()
 " " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 " Youcomplete me from github
+" if you have ycm_client_support.[so|pyd|dll] and ycm_core.[so|pyd|dll] not
+" detected; you need to compile YCM before using it. Read the docs!
+" then: cd ~/.vim/bundle/YouCompleteMe/ && ./install.sh --clang-completer
 Plugin 'Valloric/YouCompleteMe'
 "xmledit
 Bundle 'sukima/xmledit'
