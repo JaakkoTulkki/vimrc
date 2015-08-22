@@ -10,9 +10,6 @@ call vundle#begin()
 " " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 " Youcomplete me from github
-" if you have ycm_client_support.[so|pyd|dll] and ycm_core.[so|pyd|dll] not
-" detected; you need to compile YCM before using it. Read the docs!
-" then: cd ~/.vim/bundle/YouCompleteMe/ && ./install.sh --clang-completer
 Plugin 'Valloric/YouCompleteMe'
 "xmledit
 Bundle 'sukima/xmledit'
@@ -112,7 +109,7 @@ inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+  set mouse=v
 endif
 
 " Switch syntax highlighting on, when the terminal has colors
